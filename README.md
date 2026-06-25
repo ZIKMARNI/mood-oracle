@@ -1,3 +1,4 @@
+
 # Mood Oracle: Autonomous AI Oracle on Ritual Chain
 
 Mood Oracle is an autonomous state-updating AI prediction oracle built natively on **Ritual Chain** (EVM Chain ID `1979`). It utilizes Ritual's on-chain **Scheduler** for automated trigger operations and executes LLM inference securely within a Trusted Execution Environment (TEE) via the native **LLM Inference Precompile (`0x0802`)**.
@@ -88,5 +89,7 @@ npm run dev
 ---
 
 ## 📜 License
+This project is licensed under the MIT License - see the 
+[LICENSE](LICENSE) file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
