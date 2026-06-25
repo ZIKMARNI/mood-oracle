@@ -1,0 +1,19 @@
+{
+  "name": "mood-oracle-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for the Mood Oracle autonomous AI agent on Ritual Chain",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "compile": "npm run compile --workspace=@mood-oracle/contracts",
+    "test": "npm run test --workspace=@mood-oracle/contracts",
+    "deploy:ritual": "npm run deploy:ritual --workspace=@mood-oracle/contracts",
+    "dev": "npm run dev --workspace=@mood-oracle/frontend",
+    "build": "npm run build --workspace=@mood-oracle/frontend"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
